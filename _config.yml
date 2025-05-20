@@ -31,13 +31,14 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
+header_pages:
+  - index.markdown
+  - about.markdown
+  - projects.markdown
+
 plugins:
   - jekyll-feed
 
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
